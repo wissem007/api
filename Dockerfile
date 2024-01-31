@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-# DÃ©finissez l'URL de votre API en tant que variable d'environnement
+# Définissez l'URL de votre API en tant que variable d'environnement
 ENV API_URL=http://178.33.44.117
 
 EXPOSE 3000
